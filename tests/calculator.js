@@ -26,7 +26,7 @@ describe('demo calculator tests', function () {
 
         homepage.enterSecondNumber('3');
 
-        homepage.clickGo1();
+        homepage.clickGo();
 
         homepage.verifyResult('7');
 
